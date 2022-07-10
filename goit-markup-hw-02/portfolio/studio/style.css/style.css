@@ -1,0 +1,344 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.32px;
+    margin-left: 0px;
+    color: #FFFFFF;
+}
+/* Шапка */
+.heder {
+    width: 1600px;;
+    height: 80px;
+}
+/* маркировка списка */
+.ul{
+    list-style-type: none;
+}
+/* логотип */
+.webstudio {
+    position: absolute;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.48px;
+    text-decoration: none;
+    color: #000000;  
+}
+.logo {
+    color: #2196F3;
+}
+/* контакты и ссылки */
+.list, .list1, .list2, .mail,
+.tel {
+    position: absolute;
+    height: 16px;
+    top: 32px;
+    font-weight: 500;
+}
+.list1 {
+    width: 77px;
+    left: 552px;
+    color: #212121;
+}
+.list {
+    width: 49px;
+    left: 453px;
+    color: #212121;
+}
+
+.list2 {
+    width: 68px;
+    left: 679px;
+    color: #212121;
+}
+.list:hover, .list1:hover, .list2:hover {
+    color: #2196F3;
+}
+.mail {
+    width: 135px;
+    left: 1078px;
+}
+.col:hover {
+    color: #2196F3;
+}
+.tel {
+    width: 122px;
+    left: 1263px;
+}
+.tel:hover{
+    color: #2196F3;
+}
+.col {
+    color: #757575;
+   
+}
+.mai, .col, .tel {
+    position: absolute;
+    text-decoration: none;
+} 
+
+.bg {
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+    background: #2F303A;
+}
+/* заголовок */
+.hero {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+.but {
+    margin-left: 700px;
+    width: 200px;
+    height: 50px;
+    margin-top: 350px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bt {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.shad {
+font-size: 0px;
+display: none;
+}
+/* Услуги */
+.h, h1, h2, h3 {
+    position: absolute;
+    height: 16px;
+    top: 774px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.50px;
+    text-transform: uppercase;
+    color: #212121;
+}
+.h {
+    left: 215px; 
+}
+
+.h1 {
+    left: 515px;
+}
+
+.h2 {
+    left: 815px;
+}
+
+.h3 {
+    left: 1115px;
+}
+.p, .p1, .p2, .p3 {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    top: 800px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.50px;
+    color: #757575;
+}
+.p {
+    left: 215px;
+}
+.p1{
+    left: 515px;
+}
+.p2{
+    left: 815px;
+}
+.p3{
+    left: 1115px;
+}
+/* услуи */
+.work, .team {
+    position: absolute;
+    height: 42px;
+    left: 612px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.50px;
+    color: #212121;
+    text-transform: none;
+}
+.work {
+    top: 930px;
+}
+.im, .im1, .im2 {
+    position: absolute;
+    height: 294px;
+    top: 1061px;
+    margin-bottom: 994px;
+}
+.im {
+    left: 215px;
+}
+
+.im1 {
+    left: 615px;
+}
+.im2 {
+    left: 1015px;
+}
+/* команда */
+.sec-team {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+.team {
+    height: 42px;
+    left: 668px;
+    top: 50px
+}
+.card-bg1, .card-bg2, .card-bg3, .card-bg4 {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    top: 187px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.im3, .im4, .im5, .im6 {
+    position: absolute;
+    height: 260px;
+    top: 186px;
+    border-radius: 0px;
+}
+.im3, .card-bg1 {
+    left: 215px;
+}
+.im4, .card-bg2 {
+    left: 515px;
+}
+.im5, .card-bg3 {
+    left: 815px;
+}
+.im6, .card-bg4 {
+    left: 1115px;
+}
+.name1, .name2, .name3, .name4 {
+    position: absolute;
+    top: 465px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.50px; 
+    color: #212121;
+}
+.name1 {
+    left: 265px;
+}
+
+.name2 {
+    left: 596px;
+}
+
+.name3 {
+    left: 882px;
+}
+
+.name4 {
+    left: 1183px;
+}
+
+.tex1, .tex2, .tex3, .tex4 {
+    position: absolute;
+    top: 500px;
+    color: #757575;
+}
+.tex1 {
+    left: 285px;
+}
+
+.tex2 {
+    left: 587px;
+}
+
+.tex3 {
+    left: 912px;
+}
+
+.tex4 {
+    left: 1207px;
+}
+.foo {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+.web2 {
+    position: absolute;
+    height: 31px;
+    left: 215px;
+    top: 60px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.48px;
+    text-decoration: none;
+    color: #000000;
+}
+.logo2 {
+    color: #2196F3;
+}
+.stud {
+    color: #FFFFFF;
+}
+.col2, .col3, .addres {
+    position: absolute;
+    font-style: normal;
+    left: 215px;
+    color: #757575;
+}
+.addres {
+    color: #FFFFFF;
+    top: 111px;
+}
+.col2:hover, .col3:hover {
+    color: #2196F3;
+}
+.col2 {
+    top: 141px;
+}
+.col3 {
+    top: 171px;
+}
